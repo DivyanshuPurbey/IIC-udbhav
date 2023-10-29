@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Footer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center; /* Center align the entire page content */
+        }
+
+        .team-container {
+            display: flex;
+            justify-content: center; /* Center align the team members horizontally */
+            align-items: center; /* Center align the team members vertically */
+            flex-wrap: wrap; /* Allow team members to wrap to the next line if there are many */
+        }
+
+        .team-member {
+            text-align: center;
+            margin: 20px;
+            transition: transform 0.3s;
+        }
+
+        .team-member img {
+            max-width: 200px;
+            border-radius: 50%;
+            transition: transform 0.3s;
+        }
+
+        .team-member h3 {
+            margin-top: 10px;
+        }
+
+        .team-member:hover {
+            transform: scale(1.1);
+        }
+
+        /* Add more CSS for styling as needed */
+
+        /* Animation CSS (Example) */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .animated-logo {
+            animation: bounce 1s infinite;
+        }
+    </style>
+</head>
+<body>
+   
+<section class="footer">
+        <div class="footer-row">
+          <div class="footer-col">
+            <h4>Info</h4>
+            <ul class="links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Merchandise</a></li>
+              <li><a href="#">Our Team</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer-col">
+            <h4>CONTACT US</h4>
+            <ul class="links">
+              <li><a href="#">Email  : XYZ@GMAIL.COM</a></li>
+              <li><a href="#"><a href="https://maps.app.goo.gl/bGStnAYzRvWpAvGV7">Address: Motilal Nehru National <br>
+                Institute of Technology Allahabad<br>
+                Prayagraj - 211004, INDIA</a></a></li>
+            </ul>
+          </div>
+  
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="links">
+              <li><a href="#"><a href="http://mnnit.ac.in/iip/iic/index.html"> IIC MNNIT</a></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"><a href="http://mnnit.ac.in/">MNNIT Official</a></a></li>
+            </ul>
+          </div>
+  
+          <div class="footer-col">
+            <img src="C:\Users\divya\Downloads\Udbhav_logo_light.png" alt="Udhav_LOGO" width="250" height="100"> </img>
+            <p>
+                 The Institute's Innovation Council (Udhav) Festival 2023 is 
+                 all about getting people excited, helping them learn
+                 new things, and giving them a chance to dive into the
+                 world of creating new businesses (startups) and being
+                 entrepreneurs. This event will have many different things
+                 going on, like workshops and competitions, to help people
+                 learn and have fun.
+            </p>
+            
+            <div class="icons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"><a href="https://www.instagram.com/iic_mnnit/"></a></i>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </section>
+  </body>
+</html>
